@@ -1,0 +1,75 @@
+body{
+	
+	width: 100%;
+	height:100%vh;
+	background-size: cover;
+	color:white;
+}
+.formulario {
+   background-color: rgba(0, 0, 0, 0.744); 
+   width: 300px;
+   border-radius: 20px;
+   padding: 20px 60px;
+   margin: 20px auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+h1 {
+	text-align: center;
+	padding: 12px;
+	color: rgb(206, 203, 203)
+}
+.cl{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+label{
+    margin-right: 10px;
+}
+input {
+	width:180px;
+	padding: 9px;
+	margin: auto;
+	margin: 10px 0px;
+	font-size: 16px;  
+    border: none;
+    border-radius: 10px;
+}
+
+input[type='submit']{
+	background-color: #48e;
+	color: #fff;
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 40px;
+    margin: 20px auto;
+}
+.cl_btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+.btn_defaul{
+    color: #fff;
+    background-color: rgb(240, 81, 13);
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btn{
+    color: #fff;
+    border: none;
+    background-color: rgb(13, 157, 240);
+    margin: 10px;
+    padding: 11px;
+    border-radius: 10px;
+}
